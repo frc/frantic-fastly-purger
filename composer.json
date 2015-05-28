@@ -1,0 +1,21 @@
+{
+    "name": "frc/frantic-fastly-purger",
+    "license": "MIT",
+    "type": "Library",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.9",
+        "fastly/fastly": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pnu/fastly-php"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Frantic\\": "src/"
+        }
+    }
+}
